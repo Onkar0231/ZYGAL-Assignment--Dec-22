@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<center>
+<meta charset="UTF-8">
+<title>Button</title>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 50px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+
+</style>
+</head>
+<body>
+
+<div class="main section">
+
+<div class="row">
+<button class="button">1</button>
+<button class="button button2">2</button>
+<div class="row center">
+<button id ="button"> Anticlock wise</button>
+<button id ="button"> Clock wise</button>
+</div>
+<div class="row">
+<button class="button button3">3</button>
+<button class="button button4">4</button>
+</div>
+</div>
+</div>
+</center>
+</body>
+</html>
+
+ 
